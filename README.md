@@ -17,6 +17,8 @@ This landing page showcases Wibari's waterproof road solution for mining compani
 
 The website is deployed at: [https://pangeafate.github.io/wibari_roads](https://pangeafate.github.io/wibari_roads)
 
+**🌐 Local Testing**: http://localhost:8001 (if server is running)
+
 ## 🛠️ Technology Stack
 
 - **HTML5** - Semantic structure
@@ -56,6 +58,13 @@ The website is deployed at: [https://pangeafate.github.io/wibari_roads](https://
 - ✅ Mobile-first responsive design
 - ✅ Fast loading (<3 seconds target)
 - ✅ SEO optimized structure
+
+### Visual Assets
+- ✅ **20 placeholder images** generated in proper sizes
+- ✅ **Professional image paths** implemented
+- ✅ **Hover effects** and smooth transitions
+- ✅ **Lazy loading** for performance
+- 📋 **Ready for real images** - see `IMAGE_DOWNLOAD_GUIDE.md`
 
 ## 📱 Responsive Design
 
@@ -149,6 +158,12 @@ Target performance goals:
 - Analytics: Add tracking codes
 - Performance: Optimize images and assets
 
+### Image Replacement
+- Follow `IMAGE_DOWNLOAD_GUIDE.md` for detailed instructions
+- Download professional mining/construction images
+- Replace placeholders with same filenames
+- Optimize for web performance (<200KB each)
+
 ## 📁 File Structure
 
 ```
@@ -157,9 +172,15 @@ wibari_roads/
 ├── styles.css              # Complete CSS styling
 ├── script.js               # JavaScript functionality
 ├── README.md               # This file
-├── .github/
-│   └── workflows/
-│       └── deploy.yml      # GitHub Actions deployment
+├── IMAGE_DOWNLOAD_GUIDE.md # Visual assets implementation guide
+├── images/                 # Visual assets (placeholder images)
+│   ├── hero/              # Hero section images
+│   ├── problems/          # Problem section images
+│   ├── solutions/         # Solution section images
+│   ├── process/           # Process timeline images
+│   ├── case-studies/      # Case study images
+│   ├── icons/             # Logos and certification badges
+│   └── misc/              # Miscellaneous images
 └── docs/
     ├── execution_plan.md   # Project planning
     ├── landing_design.md   # Design specifications
