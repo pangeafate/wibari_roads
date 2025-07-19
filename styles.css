@@ -260,10 +260,11 @@ body {
   color: var(--text-primary);
   text-decoration: none;
   transition: all 0.2s ease;
+  background: #000000;
 }
 
 .mobile-menu-item:active {
-  background: var(--accent-glow);
+  background: #1a1a1a;
 }
 
 /* ===== BUTTONS ===== */
