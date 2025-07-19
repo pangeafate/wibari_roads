@@ -147,16 +147,20 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
 }
 
 .nav-links {
   display: none;
   gap: 2rem;
+  align-items: center;
 }
 
 @media (min-width: 768px) {
   .nav-links {
     display: flex;
+    align-items: center;
   }
 }
 
@@ -193,8 +197,15 @@ body {
 
 @media (min-width: 768px) {
   .nav-cta {
-    display: block;
+    display: flex;
+    align-items: center;
   }
+}
+
+/* Navigation button styling - smaller for navbar */
+.nav-cta .btn {
+  padding: 0.5rem 1.25rem;
+  font-size: 0.875rem;
 }
 
 .mobile-menu-toggle {
