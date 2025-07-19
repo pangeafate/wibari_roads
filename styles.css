@@ -446,7 +446,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, rgba(10, 10, 11, 0.65) 0%, rgba(10, 10, 11, 0.55) 100%);
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.55) 100%);
   z-index: 0;
 }
 
@@ -457,7 +457,7 @@ body {
   right: -50%;
   width: 200%;
   height: 200%;
-  background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
+  background: transparent;
   animation: pulse 8s ease-in-out infinite;
   z-index: -1;
 }
@@ -504,7 +504,7 @@ body {
 }
 
 .stat-card {
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(0, 0, 0, 0.4);
   border: 1px solid var(--border-color);
   border-radius: 1rem;
   padding: 1.5rem;
