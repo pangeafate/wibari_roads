@@ -107,11 +107,9 @@ body {
   .container { max-width: 1280px; }
 }
 
-/* Ensure navbar container takes full height and centers content */
+/* Ensure navbar container takes full height */
 .navbar .container {
   height: 100%;
-  display: flex;
-  align-items: center;
 }
 
 .text-accent {
