@@ -53,12 +53,12 @@
     <!-- Hero Section -->
     <section class="hero" id="hero">
         <div class="hero-video">
-            <div class="video-placeholder">
-                <div class="placeholder-content">
-                    <i class="fas fa-truck" style="font-size: 4rem; color: var(--accent-primary); margin-bottom: 1rem;"></i>
-                    <p>Mining truck video background</p>
-                </div>
-            </div>
+            <video autoplay muted loop playsinline poster="images/hero/mining-truck-dust.jpg" id="hero-video">
+                <source src="images/hero/mining-road-rain.webm" type="video/webm">
+                <source src="images/hero/mining-road-rain.mp4" type="video/mp4">
+                <!-- Fallback image if video fails to load -->
+                <img src="images/hero/mining-truck-dust.jpg" alt="Mining trucks on dusty road during operations" style="width: 100%; height: 100%; object-fit: cover;">
+            </video>
             <div class="video-overlay"></div>
         </div>
         <div class="container">
@@ -119,6 +119,9 @@
             </div>
             <div class="problems-grid stagger-container">
                 <div class="problem-card stagger-item">
+                    <div class="problem-image">
+                        <img src="images/problems/pothole-water.jpg" alt="Deep water-filled pothole on mining road" loading="lazy">
+                    </div>
                     <div class="card-icon">
                         <i class="fas fa-clock"></i>
                     </div>
@@ -126,6 +129,9 @@
                     <p>$50,000-200,000 lost per shutdown day when roads become impassable during rainy season</p>
                 </div>
                 <div class="problem-card stagger-item">
+                    <div class="problem-image">
+                        <img src="images/problems/stuck-truck.jpg" alt="Mining vehicle stuck in mud on damaged road" loading="lazy">
+                    </div>
                     <div class="card-icon">
                         <i class="fas fa-tools"></i>
                     </div>
@@ -133,6 +139,9 @@
                     <p>Asphalt roads need complete reconstruction every 2-3 years, draining maintenance budgets</p>
                 </div>
                 <div class="problem-card stagger-item">
+                    <div class="problem-image">
+                        <img src="images/problems/erosion-damage.jpg" alt="Severe road erosion damage from heavy rainfall" loading="lazy">
+                    </div>
                     <div class="card-icon">
                         <i class="fas fa-exclamation-triangle"></i>
                     </div>
@@ -140,6 +149,9 @@
                     <p>Vehicle accidents increase 300% on damaged roads, putting workers and equipment at risk</p>
                 </div>
                 <div class="problem-card stagger-item">
+                    <div class="problem-image">
+                        <img src="images/problems/road-washout.jpg" alt="Road washout damage from flooding" loading="lazy">
+                    </div>
                     <div class="card-icon">
                         <i class="fas fa-leaf"></i>
                     </div>
@@ -185,10 +197,7 @@
                 </div>
                 <div class="solution-feature fade-in-up">
                     <div class="feature-image">
-                        <div class="image-placeholder">
-                            <i class="fas fa-truck" style="font-size: 3rem;"></i>
-                            <p>400-ton mining truck</p>
-                        </div>
+                        <img src="images/solutions/heavy-equipment.jpg" alt="400-ton mining truck on stabilized road" loading="lazy">
                     </div>
                     <div class="feature-content">
                         <h3>Superior Strength</h3>
@@ -202,10 +211,7 @@
                 </div>
                 <div class="solution-feature fade-in-up">
                     <div class="feature-image">
-                        <div class="image-placeholder">
-                            <i class="fas fa-hard-hat" style="font-size: 3rem;"></i>
-                            <p>Construction crew</p>
-                        </div>
+                        <img src="images/solutions/construction-process.jpg" alt="Road construction equipment and crew working" loading="lazy">
                     </div>
                     <div class="feature-content">
                         <h3>Rapid Deployment</h3>
@@ -234,7 +240,7 @@
                     <div class="timeline-marker">1</div>
                     <div class="timeline-content">
                         <div class="timeline-image">
-                            <i class="fas fa-search"></i>
+                            <img src="images/process/soil-testing.jpg" alt="Engineers conducting soil testing with specialized equipment" loading="lazy">
                         </div>
                         <h3>Site Assessment (Days 1-3)</h3>
                         <p>Comprehensive soil analysis and testing to determine optimal catalyst mix and identify cost-saving opportunities.</p>
@@ -247,7 +253,7 @@
                     <div class="timeline-marker">2</div>
                     <div class="timeline-content">
                         <div class="timeline-image">
-                            <i class="fas fa-calculator"></i>
+                            <img src="images/process/engineering-plans.jpg" alt="Engineering blueprints and technical calculations" loading="lazy">
                         </div>
                         <h3>Load Analysis (Days 4-6)</h3>
                         <p>Determine vehicle weights and frequency to design bearing capacity specifications optimized for your operations.</p>
@@ -260,7 +266,7 @@
                     <div class="timeline-marker">3</div>
                     <div class="timeline-content">
                         <div class="timeline-image">
-                            <i class="fas fa-map"></i>
+                            <img src="images/process/aerial-mapping.jpg" alt="Aerial drone view of mining site construction planning" loading="lazy">
                         </div>
                         <h3>Strategic Planning (Days 7-11)</h3>
                         <p>Map critical reinforcement zones while skipping naturally elevated areas to achieve 30-40% cost optimization.</p>
@@ -273,7 +279,7 @@
                     <div class="timeline-marker">4</div>
                     <div class="timeline-content">
                         <div class="timeline-image">
-                            <i class="fas fa-hard-hat"></i>
+                            <img src="images/process/construction-crew.jpg" alt="Professional construction crew implementing road stabilization" loading="lazy">
                         </div>
                         <h3>Expert Implementation (Days 12-14)</h3>
                         <p>Deploy certified engineers, train local workforce, and execute with precision to deliver your operational road.</p>
@@ -380,10 +386,7 @@
             <div class="case-studies-grid">
                 <div class="case-study-card fade-in-up">
                     <div class="case-study-image">
-                        <div class="image-placeholder">
-                            <i class="fas fa-oil-well" style="font-size: 2rem;"></i>
-                            <p>Nigerian Oil & Gas</p>
-                        </div>
+                        <img src="images/case-studies/nigeria-oil-roads.jpg" alt="Nigerian oil field access roads with industrial infrastructure" loading="lazy">
                     </div>
                     <div class="case-study-content">
                         <div class="case-study-tag">Oil & Gas</div>
@@ -402,10 +405,7 @@
                 </div>
                 <div class="case-study-card fade-in-up">
                     <div class="case-study-image">
-                        <div class="image-placeholder">
-                            <i class="fas fa-mountain" style="font-size: 2rem;"></i>
-                            <p>DRC Copper Mine</p>
-                        </div>
+                        <img src="images/case-studies/drc-copper-mine.jpg" alt="DRC copper mine with haul trucks on reinforced roads" loading="lazy">
                     </div>
                     <div class="case-study-content">
                         <div class="case-study-tag">Copper Mining</div>
@@ -424,10 +424,7 @@
                 </div>
                 <div class="case-study-card fade-in-up">
                     <div class="case-study-image">
-                        <div class="image-placeholder">
-                            <i class="fas fa-coins" style="font-size: 2rem;"></i>
-                            <p>Ghana Gold Mine</p>
-                        </div>
+                        <img src="images/case-studies/ghana-gold-mine.jpg" alt="Ghana gold mining operation with improved road network" loading="lazy">
                     </div>
                     <div class="case-study-content">
                         <div class="case-study-tag">Gold Mining</div>
